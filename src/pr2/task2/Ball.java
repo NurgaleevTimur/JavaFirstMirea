@@ -7,7 +7,6 @@ public class Ball {
         this.x = x;
         this.y = y;
     }
-
     public double getX() {
         return x;
     }
@@ -28,8 +27,8 @@ public class Ball {
         this.y = y;
     }
     public void move(double xDisp, double yDisp){
-        this.x += xDisp;
-        this.y += yDisp;
+        x += xDisp;
+        y += yDisp;
     }
 
     @Override

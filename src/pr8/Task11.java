@@ -20,6 +20,7 @@ public class Task11 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Введите элемент последовательности через enter");
         System.out.println(countOnes());
     }
 }

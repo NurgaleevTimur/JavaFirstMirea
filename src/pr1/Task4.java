@@ -8,19 +8,19 @@ import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int mini = 10000;
-        int maxi = -10000;
-        int summ = 0;
-        int a=1;
+        int mini = 0;
+        int maxi = 0;
+        int sum = 0;
+        int a = 1;
         do{
-            System.out.println("Если хотите завершить программу, введите 0, инаые введите следующее целое число:");
+            System.out.println("Если хотите завершить программу, введите 0, иначе введите следующее целое число:");
             a = sc.nextInt();
-            if (a!=0) {
-                mini = Math.min(mini, a);
-                maxi = Math.max(maxi, a);
-                summ += a;
+            if (a!=0){
+                mini = Math.min(a + 1, a);
+                maxi = Math.max(a - 1, a);
+                sum += a;
             }
         } while (a!=0);
-        System.out.format("Сумма элементов массива: %s, минимальное число: %s, максимальное число: %s", summ, mini, maxi);
+        System.out.format("Сумма элементов массива: %s, минимальное число: %s, максимальное число: %s", sum, mini, maxi);
     }
 }

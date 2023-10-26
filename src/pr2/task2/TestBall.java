@@ -17,7 +17,7 @@ public class TestBall {
         double y = sc.nextDouble();
         Ball ball = new Ball(x, y);
         System.out.println(ball);
-        int i=0;
+        int i = 0;
         do{
             double xDisp;
             double yDisp;
@@ -25,7 +25,7 @@ public class TestBall {
                     "иначе введите, на сколько переместить мяч:");
             System.out.println("Введите, на сколько переместить мяч по оси x:");
             xDisp = sc.nextDouble();
-            System.out.println("Введите, на сколько переместить мяч по оси x:");
+            System.out.println("Введите, на сколько переместить мяч по оси y:");
             yDisp = sc.nextDouble();
             if (xDisp == 0 && yDisp == 0){
                 break;

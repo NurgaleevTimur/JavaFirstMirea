@@ -1,7 +1,7 @@
 package pr2.task1;
 
 public class Author {
-    private String name;
+    private  String name;
     private String email;
     private char gender;
 

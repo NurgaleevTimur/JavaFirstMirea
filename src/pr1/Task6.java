@@ -5,10 +5,10 @@ package pr1;
  */
 public class Task6 {
     public static void main(String[] args) {
-        double gar = 0;
-        for (int i=1; i<=11; i++){
-            gar += 1.0/i;
-            System.out.format("H%s: %s ", i, gar);
+        double garmonicelement = 0;
+        for (int i = 1; i <= 10; i++){
+            garmonicelement = 1.0/i;
+            System.out.format("Humber %s: %s \n", i, garmonicelement);
         }
     }
 }

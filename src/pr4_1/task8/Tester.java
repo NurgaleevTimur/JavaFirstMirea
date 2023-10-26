@@ -1,4 +1,5 @@
 package pr4_1.task8;
+
 import java.util.Scanner;
 public class Tester {
     public static void main(String[] args) {

@@ -6,8 +6,8 @@ import java.util.Scanner;
 работу метода.
  */
 public class Task7 {
-    public static int factorial(int a){
-        if (a==1 || a==2){
+    private static int factorial(int a){
+        if (a == 1 || a == 0){
             return a;
         }
         else{
@@ -18,6 +18,6 @@ public class Task7 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите целое число: ");
         int a = sc.nextInt();
-        System.out.format("Факториал %s: %s", a, factorial(a));
+        System.out.format("!%s =  %s", a, factorial(a));
     }
 }

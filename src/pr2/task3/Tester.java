@@ -4,7 +4,7 @@ public class Tester {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Object[][] store = new Object[5][2];
-        for (int i=0; i<store.length; i++){
+        for (int i = 0; i < store.length; i++){
             System.out.println("Введите координату x центра окружности:");
             double x = sc.nextDouble();
             System.out.println("Введите координату y центра окружности:");
