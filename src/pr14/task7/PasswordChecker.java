@@ -1,4 +1,4 @@
-package pr14;
+package pr14.task7;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
