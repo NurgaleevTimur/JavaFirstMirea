@@ -1,5 +1,5 @@
 package pr8;
-
+//Вариант 19
 public class Task4 {
     public static void main(String[] args) {
         int k = 3; // Задаем значение k (количество цифр)

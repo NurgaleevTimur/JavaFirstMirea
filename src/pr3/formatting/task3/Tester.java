@@ -7,7 +7,7 @@ public class Tester {
             Emploee e = new Emploee("Emp "+ String.valueOf(i), 2000*i);
             emploees[i]=e;
         }
-        System.out.println(emploees);
+//        System.out.println(emploees);
         Report r = new Report();
         r.generateReport(emploees);
     }

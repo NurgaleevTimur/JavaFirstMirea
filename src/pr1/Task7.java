@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Task7 {
     private static int factorial(int a){
         if (a == 1 || a == 0){
-            return a;
+            return 1;
         }
         else{
             return factorial(a-1)*a;

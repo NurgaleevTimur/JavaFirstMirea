@@ -1,5 +1,7 @@
 package pr11;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         System.out.println("Введите год");

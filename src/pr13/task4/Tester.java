@@ -15,20 +15,23 @@ public class Tester {
         shirts[8] = "S009,Green T-Shirt,Green,S";
         shirts[9] = "S010,Orange T-Shirt,Orange,S";
         shirts[10] = "S011,Maroon Polo Shirt,Maroon,S";
-        for (int i=0; i<=10; i++)
+        for (int i = 0; i <= 10; i++)
         {
-            String art = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
-            shirts[i]=shirts[i].substring(shirts[i].indexOf(",")+1);
-            String name = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
-            shirts[i]=shirts[i].substring(shirts[i].indexOf(",")+1);
-            String color = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
-            shirts[i]=shirts[i].substring(shirts[i].indexOf(",")+1);
-            String size = shirts[i];
-            clothes[i] = new Shirt(art, name, color, size);
-            //String[] parts = shirts[i].split(",");
-            //clothes[i] = new Shirt(parts[0], parts[1], parts[2], parts[3]);
+//            String art = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
+//            shirts[i] = shirts[i].substring(shirts[i].indexOf(",")+1);
+//
+//            String name = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
+//            shirts[i] = shirts[i].substring(shirts[i].indexOf(",")+1);
+//
+//            String color = new String(shirts[i].substring(0, shirts[i].indexOf(",")));
+//            shirts[i] = shirts[i].substring(shirts[i].indexOf(",")+1);
+//
+//            String size = shirts[i];
+//            clothes[i] = new Shirt(art, name, color, size);
+            String[] parts = shirts[i].split(",");
+            clothes[i] = new Shirt(parts[0], parts[1], parts[2], parts[3]);
+
             System.out.println(clothes[i]);
         }
-
     }
 }

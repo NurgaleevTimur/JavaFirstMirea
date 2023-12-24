@@ -7,5 +7,6 @@ public class Tester {
                 new Book("1984", "George Orwell")};
         Printable shop = new Shop(s);
         shop.print();
+        int p = 5;
     }
 }

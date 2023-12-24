@@ -8,6 +8,7 @@ public class Book implements Printable{
         this.name = name;
         this.author = author;
     }
+    @Override
     public void print(){
         System.out.println(author+" "+name);
     }

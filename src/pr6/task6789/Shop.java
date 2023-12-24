@@ -6,6 +6,7 @@ public class Shop implements Printable{
     public Shop(Printable[] books) {
         this.books = books;
     }
+    @Override
     public void print(){
         for (Printable p: books){
             p.print();

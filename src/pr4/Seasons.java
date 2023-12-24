@@ -1,6 +1,6 @@
 package pr4;
 
-public class Seasons {
+public class   Seasons {
     public enum Season {
         Winter(-10),
         Spring(0),
@@ -12,7 +12,7 @@ public class Seasons {
         },
         Fall(0);
         private final int temp;
-        private Season(int temp) {
+        Season(int temp) {
             this.temp = temp;
         }
         public String getDescription(){
@@ -20,7 +20,6 @@ public class Seasons {
         }
 
     }
-    Season fav = Season.Winter;
 
     public static void iLove(Season season) {
         switch (season){
@@ -31,9 +30,8 @@ public class Seasons {
         }
     }
     public static void main(String[] args) {
-        Season season;
         Season fav = Season.Winter;
-        System.out.printf(fav.toString()+" is the season from December to February");
+        System.out.printf(fav +" is the season from December to February");
         for (Season s: Season.values()){
             System.out.printf("\n%s, t=%d\n", s, s.temp);
             System.out.println(s.getDescription());

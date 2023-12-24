@@ -1,4 +1,6 @@
 package pr1;
+import java.security.Signature;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 /*
 Написать программу, в результате которой массив чисел создается с помощью инициализации (как в Си)
@@ -10,11 +12,11 @@ public class Task3 {
         Scanner sc = new Scanner(System.in);
         int[] a = new int[5];
         int sum = 0;
-        for (int i=0; i<5; i++){
-            System.out.println("Введите целое число: ");
-            sum += sc.nextInt();
+        for(int i = 0; i < 5; i++){
+            a[i] += sc.nextInt();
+            sum += a[i];
         }
         System.out.format("Сумма чисел списка: %s", sum);
-        System.out.format("\nСреднее арифметическое чисел массива: %s", sum/10.0);
+        System.out.printf("\nСреднее арифметическое чисел массива: %s", sum/5.0);
     }
 }

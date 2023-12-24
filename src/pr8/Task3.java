@@ -1,5 +1,5 @@
 package pr8;
-
+//Вариант 19
 import java.util.Scanner;
 
 public class Task3 {
@@ -19,7 +19,7 @@ public class Task3 {
         }
         else{
             for(int i = A; i >= B; i--){
-                System.out.println(i); // Выводим числа от А до В
+                System.out.println(i); // Выводим числа от B до A
             }
         }
     }

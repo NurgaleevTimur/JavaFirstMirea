@@ -1,4 +1,5 @@
 package pr18_24.pr19.task2;
+
 import java.util.Comparator;
 
 public class AvgComparator implements Comparator<Student> {

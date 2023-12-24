@@ -2,7 +2,7 @@ package pr18_24.pr18;
 
 public class Task1 {
     public void exceptionDemo() {
-        System.out.println(2 / 0);
+        System.out.println(0.0 / 0.0);
     }
 
     public void exceptionDemo2() {

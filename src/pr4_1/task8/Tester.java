@@ -9,7 +9,7 @@ public class Tester {
         System.out.println("Фигура заполнена? (да/нет)");
         boolean filled = false;
         String s = sc.next();
-        if (s=="да"){
+        if (s.equals("да")){
             filled = true;
         }
         System.out.println("Введите тип фигуры (круг, прямоугольник или квадрат):");
